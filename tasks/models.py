@@ -35,3 +35,5 @@ class UserProfile(models.Model):
             self.save()
         else:
             raise ValueError(f"{new_role} - такой роли нет")
+
+#sdf
